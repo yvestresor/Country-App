@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Countries App - Page 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Include necessary CSS links -->
+    <style>
+        .backBtn {
+            margin: 10px 50px 0;
+            width: 100px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            position: relative;
+            height: 40px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .back{
+            width: 100%;
+            padding: 10px;
+            outline: 0;
+            border: 0;
+            font-size: 15px;
+            text-indent: 5px;
+            cursor: pointer;
+        }
+        .country-details-content {
+            display: flex;
+            margin: 50px 50px 0;
+            /* justify-content: space-between; */
+            gap: 50px;
+        }
+        .countryinfo{
+            display: flex;
+            gap: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Where in the world?</h1>
+        <div class="search-input">
+            <input class="input" type="text" placeholder="Search for a country...">
+            <i id="searchBtn" class="fas fa-search"></i>
+        </div>
+    </div>
+    <div class="country-details">
+        <div class="country-details-content">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
