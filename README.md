@@ -6,12 +6,8 @@ This project challenges your proficiency in HTML, CSS, and JavaScript, and offer
 
 Your task is to create an interactive web application that meets the following requirements:
 
-1. Display a list of countries sourced from the API on the main page.
-2. Implement a search feature allowing users to find specific countries using an input field.
-3. Provide the functionality to filter countries by region.
-4. Enable users to click on a country to view detailed information on a separate page.
-5. Allow users to navigate to the bordering countries from the detail page.
-6. (Optional) Incorporate a toggle feature for switching between light and dark color schemes.
+1. Implement a search feature allowing users to find specific countries sourced from the API using an input field.
+2. The search should include the first country containing the value input in their name.
 
 ## Implementation
 
@@ -37,6 +33,9 @@ Follow these steps to get started:
 Once you've completed the challenge, submit your solution by creating a pull request to this repository. Make sure to include a brief description of your implementation choices and any challenges you encountered.
 
 Good luck and happy coding!
+
+## Live Demo
+https://yvestresor.github.io/Country-App/
 
 
 
