@@ -1,5 +1,3 @@
-// console.log('baron'); //testing your js file
-
 //globall variables
 const BASE_API = "https://restcountries.com/v3.1/all";
 const countryDetailsContent = document.querySelector('.country-details-content');

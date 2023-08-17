@@ -1,4 +1,4 @@
-## Countries Information App
+### Countries Information App
 
 This project challenges your proficiency in HTML, CSS, and JavaScript, and offers an opportunity to integrate with the REST Countries API to showcase country data in alignment with the provided design.
 
