@@ -11,6 +11,11 @@ body {
     font-family: "Nunito Sans", sans-serif;
 }
 
+.bodybackground {
+    background-image: url('image/world.jpg');
+    background-size: cover;
+}
+
 .header {
     padding:  10px 50px;
     display: flex;

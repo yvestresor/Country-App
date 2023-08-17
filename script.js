@@ -69,14 +69,17 @@ const showCountry = async (parsedCountryData) =>{
 
 
 function searchCountry() {
+    const body = document.querySelector('body');
     if (selectedCountryName.value.trim() !== '') {
         const selectedCountry = allCountries.find(countrySearch => countrySearch.name.common.toLowerCase().includes(selectedCountryName.value.trim().toLowerCase()));
         // const selectedCountry = allCountries.find(countrySearch => countrySearch.name.common.toLowerCase() === selectedCountryName.value.trim().toLowerCase());
+        body.classList.remove('bodybackground');
         if (selectedCountry) {
             countryDetailsContent.innerHTML = '';
             showCountry(selectedCountry);
         } else {
-            countryDetailsContent.innerHTML = '<p>No matching country found!</p>';
+            body.classList.add('bodybackground');
+            countryDetailsContent.innerHTML = '<h1 style="margin: auto;color: white;">No matching country found!</h1>';
         }
     }
 }
